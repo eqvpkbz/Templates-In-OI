@@ -69,4 +69,4 @@
 
 ---
 
-<p style="text-align:center; color:grey; opacity: 0.75;font-size:35px">made with ♥ by <a href="https://github.com/Eqvpkbz" style="text-decoration:none; color:grey;">Eqvpkbz</a></p>
+**made with ♥ by [Eqvpkbz](https://github.com/Eqvpkbz)**
