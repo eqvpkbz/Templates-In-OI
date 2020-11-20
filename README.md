@@ -2,7 +2,7 @@
 
 总结了一些在 **信息学竞赛(Olympiad in Informatics, OI)** 中可能会用到的模板， 配置文件等
 
-### Index
+### 目录
 
 #### 动态规划
 
