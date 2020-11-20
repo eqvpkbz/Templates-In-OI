@@ -28,7 +28,7 @@
 - `/DS/normal-sgt.cpp`, 朴素线段树
 - `/DS/normal-splay.cpp`, 朴素 `splay` 实现普通平衡树
 - `/DS/reverse-splay.cpp`, `splay` 实现文艺平衡树
-- `/DS/sparse_table.cpp`, `st` 表
+- `/DS/sparse-table.cpp`, `st` 表
 
 ### 图论
 
@@ -66,6 +66,10 @@
 ### 配置
 
 - `/CONF/.vimrc`, `vim` 编辑器的配置文件
+
+## 鸣谢
+
+- [BackSlashDelta](https://github.com/BackSlashDelta)
 
 ---
 
