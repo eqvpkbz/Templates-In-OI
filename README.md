@@ -1,34 +1,36 @@
-## Templates In OI
+# Templates In OI
 
-总结了一些在 **信息学竞赛(Olympiad in Informatics, OI)** 中可能会用到的模板， 配置文件等
+## 概述
 
-### 目录
+总结了一些在 **信息学竞赛(Olympiad in Informatics, OI)** 中可能会用到的模板， 配置文件等。
 
-#### 动态规划
+## 目录
 
-- `/DP/01-pack.cpp`, `01` 背包
-- `/DP/complete-pack.cpp`, 完全背包
-- `/DP/multiple-pack.cpp`, 单调队列优化多重背包
-- `/DP/group-pack.cpp`, 分组背包
+### 动态规划
+
+- `/DP/knapsack-pure.cpp`, `01` 背包
+- `/DP/knapsack-complete.cpp`, 完全背包
+- `/DP/knapsack-multiple.cpp`, 单调队列优化多重背包
+- `/DP/knapsack-grouped.cpp`, 分组背包
 - `/DP/lcis.cpp`, 最长公共上升子序列
 - `/DP/lcs-lis.cpp`, 用最长上升子序列实现的最长公共子序列
 - `/DP/lcs-normal.cpp`, 最长公共子序列的朴素实现
 - `/DP/lis-bit.cpp`, 最长上升子序列的树状数组写法
 - `/DP/lis-greedy.cpp`, 基于贪心和单调栈的最长上升子序列
 
-#### 数据结构
+### 数据结构
 
-- `/DS/chairman-tree.cpp`, 静态主席树
-- `/DS/disjoint-sets.cpp`, 并查集
-- `/DS/dynamic-seg.cpp`, 动态开点线段树
+- `/DS/chairman-tree.cpp`, 静态主席树（~~可持久化离散化桶~~）
+- `/DS/disjoint-set.cpp`, 并查集
+- `/DS/dynamic-sgt.cpp`, 动态开点线段树
 - `/DS/linear-basis.cpp`, 线性基
-- `/DS/normal-bit.cpp`, 朴素树状数组
-- `/DS/normal-seg.cpp`, 朴素线段树
+- `/DS/normal-bit.cpp`, 朴素树状数组（~~芬维克树~~）
+- `/DS/normal-sgt.cpp`, 朴素线段树
 - `/DS/normal-splay.cpp`, 朴素 `splay` 实现普通平衡树
 - `/DS/reverse-splay.cpp`, `splay` 实现文艺平衡树
-- `/DS/st-table.cpp`, `st` 表
+- `/DS/sparse_table.cpp`, `st` 表
 
-#### 图论
+### 图论
 
 - `/GT/bridge.cpp`, `Tarjan` 桥
 - `/GT/cut-point.cpp`, `Tarjan` 割点
@@ -41,7 +43,7 @@
 - `/GT/tree-cut-lca.cpp`, 树链剖分求 `LCA`
 - `/GT/tree-cut.cpp`, 树链剖分
 
-#### 数论
+### 数论
 
 - `/MT/crt.cpp`, 中国剩余定理
 - `/MT/euler-prime.cpp`, 欧拉筛
@@ -55,12 +57,16 @@
 - `/MT/quick-matrix-pow.cpp`, 矩阵快速幂
 - `/MT/quick-pow.cpp`, 快速幂
 
-#### 字符串算法
+### 字符串算法
 
 - `/SA/ac-automaton.cpp`, `AC` 自动机实现多串匹配
 - `/SA/kmp.cpp`, `KMP` 算法实现单串匹配
 - `/SA/manacher.cpp`, `manacher` 求最长回文子串
 
-#### 配置
+### 配置
 
 - `/CONF/.vimrc`, `vim` 编辑器的配置文件
+
+---
+
+**made with ♥ by [Eqvpkbz](https://github.com/Eqvpkbz)**
