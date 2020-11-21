@@ -6,6 +6,11 @@
 
 ## 目录
 
+### 算法及常用思想
+
+- `/AL/cantor-expansion.cpp`, 基于树状数组的康托展开
+- `/AL/radix-sort.cpp`, 基数排序
+
 ### 动态规划
 
 - `/DP/knapsack-pure.cpp`, `01` 背包
@@ -36,12 +41,15 @@
 - `/GT/cut-point.cpp`, `Tarjan` 割点
 - `/GT/dijkstra.cpp`, 堆优化 `dijkstra` 实现单源最短路径
 - `/GT/kruskal.cpp`, `kruskal` 最小生成树
+- `/GT/boruvka.cpp`, `boruvka` 最小生成树
 - `/GT/prim.cpp`, `prim` 最小生成树
 - `/GT/shrink-point.cpp`, `Tarjan` 缩点
 - `/GT/spfa.cpp`, `spfa` 实现单源最短路径
 - `/GT/tarjan-lca.cpp`, `tarjan` 离线求最近公共祖先(Lowest Common Ancestor, LCA)
 - `/GT/tree-cut-lca.cpp`, 树链剖分求 `LCA`
 - `/GT/tree-cut.cpp`, 树链剖分
+- `/GT/ssst.cpp`, 基于树剖的严格次小生成树
+- `/GT/negative-circle.cpp`, 基于 `spfa` 的负环
 
 ### 数论
 
