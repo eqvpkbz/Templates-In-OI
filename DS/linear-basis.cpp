@@ -11,12 +11,12 @@ ull p[N + 5];
 
 inline void ins(ull x){
     down(i, N) if((x >> i) & 1){
-	    if(!p[i]){
-	        p[i] = x;
-	        return ;
-	    }
-	    x ^= p[i];
-	} return ;
+	if(!p[i]){
+	    p[i] = x;
+	    return ;
+	}
+	x ^= p[i];
+    } return ;
 }
 
 ull query(ull x) {
