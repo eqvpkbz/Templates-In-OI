@@ -10,6 +10,8 @@
 
 - `/AL/cantor-expansion.cpp`, 基于树状数组的康托展开
 - `/AL/radix-sort.cpp`, 基数排序
+- `/AL/divide.cpp`， 整体二分求静态区间第k小
+- `/AL/divide-2.cpp`，整体二分求动态区间第k小
 
 ### 动态规划
 
@@ -48,6 +50,7 @@
 - `/GT/tarjan-lca.cpp`, `tarjan` 离线求最近公共祖先(Lowest Common Ancestor, LCA)
 - `/GT/tree-cut-lca.cpp`, 树链剖分求 `LCA`
 - `/GT/tree-cut.cpp`, 树链剖分
+- `/GT/double-lca.cpp`, 倍增求 `LCA`
 - `/GT/ssst.cpp`, 基于树剖的严格次小生成树
 - `/GT/negative-circle.cpp`, 基于 `spfa` 的负环
 
