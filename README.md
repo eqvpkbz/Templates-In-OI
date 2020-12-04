@@ -14,6 +14,7 @@
 - `/AL/divide-2.cpp`，整体二分求动态区间第k小
 - `/AL/cdq.cpp`, `cdq` 分治求[P3157 [CQOI2011]动态逆序对](https://www.luogu.com.cn/problem/P3157)
 - `/AL/three-divide.cpp`, 三分法求函数最值
+- `/AL/discretization.cpp`, 离散化
 
 ### 动态规划
 
