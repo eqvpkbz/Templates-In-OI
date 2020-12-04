@@ -13,6 +13,7 @@
 - `/AL/divide.cpp`， 整体二分求静态区间第k小
 - `/AL/divide-2.cpp`，整体二分求动态区间第k小
 - `/AL/cdq.cpp`, `cdq` 分治求[P3157 [CQOI2011]动态逆序对](https://www.luogu.com.cn/problem/P3157)
+- `/AL/three-divide.cpp`, 三分法求函数最值
 
 ### 动态规划
 
@@ -38,6 +39,7 @@
 - `/DS/normal-splay.cpp`, 朴素 `splay` 实现普通平衡树
 - `/DS/reverse-splay.cpp`, `splay` 实现文艺平衡树
 - `/DS/sparse-table.cpp`, `st` 表
+- `/DS/humdrum-queue.cpp`, 单调队列求滑动窗口
 
 ### 图论
 
@@ -56,6 +58,11 @@
 - `/GT/ssst.cpp`, 基于树剖的严格次小生成树
 - `/GT/negative-circle.cpp`, 基于 `spfa` 的负环
 - `/GT/hungarian-algorithm.cpp`, 匈牙利算法求解二分图最大匹配
+- `/GT/hlpp.cpp`, 预留推进求最大流
+- `/GT/dinic.cpp`, `dinic` 求最大流
+- `/GT/isap.cpp`, `ISAP` 求最大流
+- `/GT/kth-short-path-A-star.cpp`, `A*` 求 `k` 短路
+- `/GT/point-divide.cpp`, 点分治
 
 ### 数论
 
@@ -70,6 +77,10 @@
 - `/MT/pollard-rho.cpp`, `pollard-rho` 快速质因数分解
 - `/MT/quick-matrix-pow.cpp`, 矩阵快速幂
 - `/MT/quick-pow.cpp`, 快速幂
+- `/MT/fft.cpp`, 快速傅里叶变换
+- `/MT/ntt.cpp`, 快速数论变换
+- `/MT/nim.cpp`, `nim` 游戏
+- `/MT/Bézout’s-theorem.cpp`, 裴蜀定理
 
 ### 字符串算法
 
