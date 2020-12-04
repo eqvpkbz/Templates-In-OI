@@ -55,6 +55,7 @@
 - `/GT/double-lca.cpp`, 倍增求 `LCA`
 - `/GT/ssst.cpp`, 基于树剖的严格次小生成树
 - `/GT/negative-circle.cpp`, 基于 `spfa` 的负环
+- `/GT/hungarian-algorithm.cpp`, 匈牙利算法求解二分图最大匹配
 
 ### 数论
 
