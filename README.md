@@ -12,6 +12,7 @@
 - `/AL/radix-sort.cpp`, 基数排序
 - `/AL/divide.cpp`， 整体二分求静态区间第k小
 - `/AL/divide-2.cpp`，整体二分求动态区间第k小
+- `/AL/cdq.cpp`, `cdq` 分治求[P3157 [CQOI2011]动态逆序对](https://www.luogu.com.cn/problem/P3157)
 
 ### 动态规划
 
@@ -24,6 +25,7 @@
 - `/DP/lcs-normal.cpp`, 最长公共子序列的朴素实现
 - `/DP/lis-bit.cpp`, 最长上升子序列的树状数组写法
 - `/DP/lis-greedy.cpp`, 基于贪心和单调栈的最长上升子序列
+- `/DP/digit.cpp`, 记忆化搜索实现数位dp求解[P2657 [SCOI2009] windy 数](https://www.luogu.com.cn/problem/P2657)
 
 ### 数据结构
 
